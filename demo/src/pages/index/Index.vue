@@ -39,7 +39,7 @@ export default {
 .main{
     .index{
         h1{
-            color:red;
+            color: $red;
             font-size: 24px;
             text-align: center;
         }
