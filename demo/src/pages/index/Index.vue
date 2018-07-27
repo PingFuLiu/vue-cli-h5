@@ -39,8 +39,9 @@ export default {
 .main{
     .index{
         h1{
+            width: 3.75rem;//rem
             color:red;
-            font-size: 24px;
+            font-size: 24px;//文字px
             text-align: center;
         }
         .logo{
