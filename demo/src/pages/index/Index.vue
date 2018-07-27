@@ -39,7 +39,7 @@ export default {
 .main{
     .index{
         h1{
-            color: $red;
+            color:red;
             font-size: 24px;
             text-align: center;
         }
@@ -48,7 +48,7 @@ export default {
             justify-content: center;
         }
         a{
-            color: green;
+            color: $red;
             font-size: 24px;
             display: block;
             text-align: center;
