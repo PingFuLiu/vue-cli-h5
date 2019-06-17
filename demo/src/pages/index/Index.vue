@@ -7,6 +7,34 @@
             </div>
             <a href="javascript:;" @click='toLogin'>跳转登录页</a>
         </div>
+        <div class="wrap index">
+            <h1>{{ msg }}</h1>
+            <div class="logo">
+                <img src='../../images/logo.png' alt=''>
+            </div>
+            <a href="javascript:;" @click='toLogin'>跳转登录页</a>
+        </div>
+        <div class="wrap index">
+            <h1>{{ msg }}</h1>
+            <div class="logo">
+                <img src='../../images/logo.png' alt=''>
+            </div>
+            <a href="javascript:;" @click='toLogin'>跳转登录页</a>
+        </div>
+        <div class="wrap index">
+            <h1>{{ msg }}</h1>
+            <div class="logo">
+                <img src='../../images/logo.png' alt=''>
+            </div>
+            <a href="javascript:;" @click='toLogin'>跳转登录页</a>
+        </div>
+         <div class="wrap index">
+            <h1>{{ msg }}</h1>
+            <div class="logo">
+                <img src='../../images/logo.png' alt=''>
+            </div>
+            <a href="javascript:;" @click='toLogin'>跳转登录页</a>
+        </div>
     </div>
 </template>
 
