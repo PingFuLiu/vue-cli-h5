@@ -15,7 +15,7 @@ export default {
     name: 'Login',
     data(){
         return {
-            msg: '这是登陆页',
+            msg: '这是登录页',
         }
     },
     methods: {
@@ -37,6 +37,10 @@ export default {
         .logo{
             display: flex;
             justify-content: center;
+            img{
+                width: 1rem;
+                height: 1rem;
+            }
         }
         a{
             color: green;

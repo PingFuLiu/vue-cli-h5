@@ -27,7 +27,7 @@ button,
 input,
 select,
 figure,
-figcaption,
+figcaption
   {
   padding: 0;
   margin: 0;
@@ -173,10 +173,10 @@ div.main {
   line-height: 0.3rem;
 }
 
-body {
-  max-width: 5.6rem;
-  margin: 0 auto;
-}
+// body {
+//   max-width: 5.6rem;
+//   margin: 0 auto;
+// }
 
 #app {
   width: 100%;

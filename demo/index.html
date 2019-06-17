@@ -8,19 +8,19 @@
     <script>
       (function (doc, win) {
         var docEl = doc.documentElement,
-          resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-          //orientationchange 事件是在用户水平或者垂直翻转设备（即方向发生变化）时触发的事件。
-          //resize事件是屏幕缩放时候触发的事件
-          recalc = function () {
-            var clientWidth = docEl.clientWidth;
-            if (!clientWidth) return;
-            if (clientWidth >= 640) {
-              docEl.style.fontSize = 100 * (640 / 375) + 'px';//设计图750 750 / 2 = 375
-              document.getElementById('app').style.width = 640 + "px";
-            } else {
-              docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
-            }
-          };
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        //orientationchange 事件是在用户水平或者垂直翻转设备（即方向发生变化）时触发的事件。
+        //resize事件是屏幕缩放时候触发的事件
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          // if (clientWidth >= 640) {
+          //   docEl.style.fontSize = 100 * (640 / 375) + 'px';//设计图750 750 / 2 = 375
+          //   document.getElementById('app').style.width = 640 + "px";
+          // } else {
+            docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+          // }
+        };
         if (!doc.addEventListener) return;
         win.addEventListener(resizeEvt, recalc, false);
         doc.addEventListener('DOMContentLoaded', recalc, false);

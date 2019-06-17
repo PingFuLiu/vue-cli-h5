@@ -47,6 +47,10 @@ export default {
         .logo{
             display: flex;
             justify-content: center;
+            img{
+                width: 1rem;
+                height: 1rem;
+            }
         }
         a{
             color: $red;
