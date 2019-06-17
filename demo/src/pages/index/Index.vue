@@ -5,7 +5,7 @@
             <div class="logo">
                 <img src='../../images/logo.png' alt=''>
             </div>
-            <a href="javascript:;" @click='toLogin'>跳转登陆页</a>
+            <a href="javascript:;" @click='toLogin'>跳转登录页</a>
         </div>
     </div>
 </template>
